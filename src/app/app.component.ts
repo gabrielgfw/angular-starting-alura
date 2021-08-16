@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bytebank';
+
+  transferir($event) {
+    console.log('Entrou no App Component.')
+    console.log($event);
+  }
 }
